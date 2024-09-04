@@ -1,0 +1,161 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: rgba(31, 42, 50, 1);
+}
+
+* {
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+/* HEADER  */
+
+.header_stuff {
+    padding: 30px 135px 0 135px;
+    display: flex;                
+    justify-content: space-between; 
+    align-items: center;    
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../fonts/BebasNeueCyrillic.ttf);
+}
+
+header {
+    background-image: url(../img/hero-bg@2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top-center;
+    height: 750px;
+    width: 1440px;
+}
+
+.logoimg {
+    width: 183px;
+    height: auto;
+}
+
+.navigation a {
+  
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+.list_for_navigation {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list:not(:last-child) {
+    margin-right: 50px; 
+}
+
+.list {
+    font-family: "Bebas Neue";
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.big_header_logo {
+    width: 526px;
+    margin: 125px 0 0 779px;
+}
+
+/* HEADER END */
+
+/* SECTION 1 */
+
+.about_trainers{
+    margin-top: 150px;
+}
+.title_personal-trainers {
+    color: rgba(255, 212, 121, 1);
+    font-family: "Bebas Neue";
+    font-size: 96px;
+    text-align: center;
+    letter-spacing: 7.5px;
+    font-weight: 100;
+    margin: 0;
+    line-height: 96px;
+}
+
+.text_personal-trainers{
+font-family: "Roboto";
+text-align: center;
+font-size: 16px;
+color: rgba(250, 250, 245, 1);
+font-weight: 300;
+line-height: 32px;
+margin: 0;
+}
+
+.new-line{
+    display: block;
+}
+
+.trainers_photo:not(:last-child) {
+    padding: 50px 139px 0 139px;
+}
+.stroke{
+    display: flex;
+    justify-content: center;
+}
+
+.photo_size {
+    width: 268px;
+    height: auto;
+    margin: 0;
+}
+
+/* SECTION 1 END */
+
+/* SECTION 2 */
+
+.section_2 {
+    background-image: url(../img/beast-bg.png);
+    background-size: cover;
+    width: 1440px;
+    height: 754.33px;
+    margin-top: 150px;
+}
+
+.animal_mood_block{
+    padding-top: 242px;
+    padding-left: 135px;
+}
+.animal-mood_title {
+    font-family: "Bebas Neue";
+    color: rgba(255, 255, 255, 1);
+    font-size: 75px;
+    letter-spacing: 7.5px;
+    font-weight: 100;
+    margin: 0;
+}
+.animal-mood_text {
+    font-family: "Roboto";
+    color: rgba(255, 255, 255, 1);
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    width: 1170px;
+    height: auto;
+    margin: 0;
+    padding-top: 10px;
+}
+.animal-mood_enroll {
+    font-size: 19px;
+    font-family: "Bebas Neue";
+    letter-spacing: 5px;
+    background-color: rgba(255, 212, 121, 1);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    margin: 0;
+    padding: 18px 46px 15px 47px;
+    margin-top: 30px;
+}
+
+/* SECTION 2 END */
